@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media (max-width: 500px){
+.meals .meal.breakfast img {
+    width: 150px;
+}
+.meals .meal.breakfast h4 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #B22222;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    margin-top: 32px;
+}
+.meals .meal.dessert h4 {
+    color: #FFFFFF;
+    background-color: #B22222;
+    padding-top: 11px;
+    padding-bottom: 14px;
+    margin-top: 33px;
+}
+.meals .meal.dinner h4 {
+    padding-top: 11px;
+    padding-bottom: 14px;
+    background-color: #B22222;
+    color: #FFFFFF;
+}
+.meals .meal.dinner img {
+    width: 152px;
+}
+.meals .meal.dessert img {
+    width: 149px;
+}
+}
+
+@media screen{
+ul li .btn {
+    float: left;
+    clear: right;
+    margin-right: -29px;
+    margin-left: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #FF0F00;
+    color: #FFFFFF;
+    text-align: center;
+}
+.meals .meal.breakfast img {
+    padding-left: 2px;
+    padding-right: 0px;
+}
+.contributions .meals .meal.dessert {
+}
+.meals .meal.dinner img {
+}
+}
